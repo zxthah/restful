@@ -12,7 +12,7 @@ import java.util.concurrent.atomic.AtomicLong;
 @RequestMapping(value = "/echo")
 public class EchoController {
     private static final String echoTemplate1 = "received %s!";
-    private static final String echoTemplate2 = "%s speak to %s \'%s\'";
+    private static final String echoTemplate2 = "%s speaks to %s \'%s\'";
     private final AtomicLong counter = new AtomicLong();
 
     @RequestMapping(value = "/getter/pattern1", method = RequestMethod.GET)
