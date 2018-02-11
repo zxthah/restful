@@ -6,7 +6,6 @@ import zx.boot.restful.dao.Message;
 
 import java.util.concurrent.atomic.AtomicLong;
 
-//http://www.mamicode.com/info-detail-1961197.html
 
 @RestController
 @RequestMapping(value = "/echo")
